@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lista de clientes </title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th> ID </th>
+            <th> Nome </th>
+            <th> email </th>
+            <th> Endereço </th>
+        </tr>
+        {% for item in data %}
+        <tr>
+            <td> {{ item.id }} </td>
+            <td> {{ item.name }} </td>
+            <td> {{ item.email }} </td>
+            <td> {{ item.endereco }} </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
