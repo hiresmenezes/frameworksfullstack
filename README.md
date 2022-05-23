@@ -34,9 +34,11 @@ Execute ele com docker (na parte de banco de dados mysql) tire um print das tabe
 (o proprio projeto tem um passo a passo para execucao)
 
 
-Alunos: 
+ALUNOS: 
 Hires Serva de Maria Menezes - 1904889 / 
 Rodrigo Augusto Alves - 1904668
+
+COMANDOS:
 
 docker_postgres
 ##para ajustar o ip do banco de dados
